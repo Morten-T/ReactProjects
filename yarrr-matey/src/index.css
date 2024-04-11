@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.yellow-box {
+  margin-top: 2rem;
+  margin-right: 256px;
+  /* eller brug 12rem til margin right */
+  background-color: rgb(248, 248, 151);
+  padding: 8rem;
+  position: relative;
+}
+
+.title {
+  margin: 10px;
+  font-size: 2rem;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
